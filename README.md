@@ -208,8 +208,7 @@ the corresponding operations available on the left panel. As an example, conside
 
 ![Change log level](src/main/resources/static/figures/jconsole-loggers-set-level.PNG)
 
-The logger name must be specified as the full qualified name, and the level should be one of `trace`, `debug`, `info`,
- `warn`, `error`, `fatal`, as specified in the `Log` interface. 
+The logger name must be specified as the full qualified name, and the level should be one of `TRACE`, `DEBUG`, `INFO`, `WARN` and `ERROR`, as specified by Logback levels. 
  
 
  ##### JMXConfigurator with multiple web-applications
