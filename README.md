@@ -184,7 +184,7 @@ Thus, invoke the jconsole application on the command line and then connect to yo
 In our example, running the spring boot application,
 the java process is local, as show in the next figure:
 
-![Choosing a connection](jmx-poc-boot/src/main/resources/static/figures/jconsole-connection.PNG)
+![Choosing a connection](figures/jconsole-connection.PNG)
 
 Once you connect  to your server with jconsole, go to MBean tab to check the available beans and their properties. 
 Under `ch.qos.logback.classic.jmx.Configurator` folder you should see several operations to choose from:
@@ -201,12 +201,12 @@ You can find all the logger available in this process (they are automatically re
 by clicking in the `Attributes` elements in the left panel and expanding the `loggerList` with a double-click, 
 as illustrated in the next figure: 
 
-![Loggers list](jmx-poc-boot/src/main/resources/static/figures/jconsole-loggers.PNG)
+![Loggers list](figures/jconsole-loggers.PNG)
 
 Once you know the name of the logger you are interested in, you can verify the configured level or change it using 
 the corresponding operations available on the left panel. As an example, consider the next figure:   
 
-![Change log level](jmx-poc-boot/src/main/resources/static/figures/jconsole-loggers-set-level.PNG)
+![Change log level](figures/jconsole-loggers-set-level.PNG)
 
 The logger name must be specified as the full qualified name, and the level should be one of `TRACE`, `DEBUG`, `INFO`, `WARN` and `ERROR`, as specified by Logback levels. 
  
