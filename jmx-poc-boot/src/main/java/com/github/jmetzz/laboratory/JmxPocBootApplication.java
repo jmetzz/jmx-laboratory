@@ -15,6 +15,6 @@ public class JmxPocBootApplication {
 	 If they were in a different package tree, I would need to explicitly tell Spring Boot to scan that package.
 	 */
 	public static void main(String[] args) {
-		SpringApplication.run(JmxPocBootApplication.class, args);
+		SpringApplication.run(JmxPocBootApplication.class , args);
 	}
 }
